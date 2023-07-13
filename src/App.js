@@ -1,5 +1,4 @@
 import React from 'react'
-//import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
@@ -50,7 +49,6 @@ function App() {
             />
             <Route path="/about" element={<About mode={mode} />} />
           </Routes>
-          {/* <TextForm showAlert={showAlert} heading="Try TextUtils - Word Counter, Charater Counter"  mode={mode}/> */}
         </div>
       </BrowserRouter>
     </div>
