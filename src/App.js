@@ -44,10 +44,10 @@ function App() {
         <Alert alert={alert} />
         <div className="container my-3">
           <Routes>
-            <Route path="/"
+            <Route exact path="/"
               element={<TextForm showAlert={showAlert} heading="Try TextUtils - Word Counter, Charater Counter" mode={mode} />}
             />
-            <Route path="/about" element={<About mode={mode} />} />
+            <Route exact path="/about" element={<About mode={mode} />} />
           </Routes>
         </div>
       </BrowserRouter>
